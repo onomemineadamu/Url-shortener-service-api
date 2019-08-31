@@ -1,0 +1,35 @@
+{
+  "name": "url-shortener-service",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onomemineadamu/Url-shortener-service-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onomemineadamu/Url-shortener-service-api/issues"
+  },
+  "homepage": "https://github.com/onomemineadamu/Url-shortener-service-api#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.6.11",
+    "shortid": "^2.2.14",
+    "valid-url": "^1.0.9"
+  }
+}

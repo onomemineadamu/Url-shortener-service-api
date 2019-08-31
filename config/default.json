@@ -1,0 +1,4 @@
+{
+  "mongoURL": "mongodb+srv://creativeadams:computer@1@urlshortenerservice-okcqe.mongodb.net/test?retryWrites=true&w=majority",
+  "baseURL": "http://localhost:5000"
+}
